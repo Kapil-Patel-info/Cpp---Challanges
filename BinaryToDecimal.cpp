@@ -22,6 +22,6 @@ return ans;
 
 int main(){
 
-cout<<BinaryToDecimal(111);
+cout<<BinaryToDecimal(111);  //output : 7
 
 }
