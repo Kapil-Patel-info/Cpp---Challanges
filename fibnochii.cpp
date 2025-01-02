@@ -6,10 +6,13 @@ int main()
     int first = 0;
     int second = 1;
     int next;
+int n ;
 
+cout<< "enter value here : ";
+cin>>n;
     // cout<< first << second ;
 
-    for (int i = 1; i <= 7; i++)
+    for (int i = 1; i <= n; i++)
     {
 
         if (i == 1)
@@ -30,7 +33,7 @@ int main()
 
         second = next;
 
-        cout << next;
+        cout << next << " ";
     }
 
     return 0;
